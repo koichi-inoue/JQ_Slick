@@ -1,21 +1,23 @@
 $( function() {
 
     $(".slider").slick({
+      // ナビゲーションとしてサムネイルを使用
+      asNavFor:'.thumbnail',
       // アクセシビリティ｜左右ボタンによる画像の切り替え ON/OFF
       accessibility: true,
       // 左右のボタン表示の ON/OFF
-      arrows: true,
+      arrows: false,
       // ページ送り(dots)表示の ON/OFF
-      dots: true,
+      dots: false,
       // dots の class名定義 <ul class="XXX">
       dotsClass: 'dot-class',
       // ドラッグを有効にするかの ON/OFF
-      draggable: true,
+      draggable: false,
       // タッチスワイプに対応するの ON/OFF
       swipe: true,
 
       // 自動再生の切り替え ON/OFF
-      autoplay: true,
+      autoplay: false,
       // 自動再生で切り替えをする時間
       autoplaySpeed: 3000,
       // 自動再生や左右の矢印でスライドするスピード
@@ -49,4 +51,12 @@ $( function() {
       // 中央のpadding値の定義
       centerPadding: '0px'
     });
+
+    $('.thumbnail').slick({
+      asNavFor:'.slider',
+      focusOnSelect: true,
+      arrows: false,
+      slidesToShow:3,
+    });
+
 });

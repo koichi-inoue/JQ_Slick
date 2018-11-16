@@ -4,6 +4,16 @@
       margin: 100px auto;
   }
 
+  .thumbnail {
+      width: 20%;
+      margin: auto;
+  }
+
+  .thumbnail div {
+    margin: 2%;
+  }
+
+
   .slick-slide {
     margin: 0px 0px;
   }
