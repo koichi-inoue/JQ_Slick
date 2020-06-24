@@ -56,7 +56,7 @@ $( function() {
       asNavFor:'.slider',
       focusOnSelect: true,
       arrows: false,
-      slidesToShow:3,
+      slidesToShow:4,
     });
 
 });

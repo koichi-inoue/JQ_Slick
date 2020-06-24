@@ -1,62 +1,25 @@
 
-  .slider {
-      width: 50%;
-      margin: 100px auto;
-  }
-
-  .thumbnail {
-      width: 20%;
-      margin: auto;
-  }
-
-  .thumbnail div {
-    margin: 2%;
-  }
+h1 {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
 
 
-  .slick-slide {
-    margin: 0px 0px;
-  }
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
 
-  .slick-slide img {
-    width: 100%;
-  }
+.thumbnail {
+    width: 25%;
+    margin: auto;
+}
 
-  .slick-prev {
-    left: 25px;
-    z-index: 999;
-  }
+.thumbnail div {
+  margin: 2%;
+}
 
-  .slick-next {
-    right: 25px;
-    z-index: 999;
-  }
-
-  .slick-prev:before,
-  .slick-next:before {
-    color: black;
-  }
-
-  .slick-slide {
-    transition: all ease-in-out .3s;
-    opacity: .2;
-  }
-
-  .slick-active {
-    opacity: .5;
-  }
-
-  .slick-current {
-    opacity: 1;
-  }
-
-  .dot-class {
-    margin-top: 2rem;
-    text-align: center;
-  }
-
-  .dot-class li{
-    display: inline-block;
-    list-style-type: none;
-    margin-right: 1rem;
-  }
+.slick-slide img {
+  width: 100%;
+}
